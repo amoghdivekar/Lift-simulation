@@ -12,39 +12,41 @@
     <div class="container">
         <h1 class="heading">Lift Simulation</h1>
 
-        <br >
-        <br >
+        <br ><br >
    
-        <label for="No of floors" ></label>
-        <input id="floor-input" type="number" placeholder="No of floors --- max: 10" />
+        <label for="no-of-floors" >No of floors</label>
+        <input id="floor-input" type="number" required />
+
+        <br ><br >
+
+        <label for="no-of-lifts">No of lifts</label>
+        <input id="lift-input" type="number" required />
 
         <br >
         <br >
 
-        <label for="No of lifts" ></label>
-        <input id="lift-input" type="number" placeholder="No of lifts --- max: 3" />
-
-        <br >
-        <br >
-
-        <button id="generate-btn" type="submit">
+        <button id="generate-btn" class="generate">
             Generate
         </button>
-    </div>
-
-    <br >
-    <br >
-
-    <div class="output">
-
+        
     </div>
 
     <br >
     <br >
 
     <footer class="social">
-        <a href="https://github.com/amoghdivekar/Lift-simulation"> Github Link </a>
+        <a href="https://github.com/amoghdivekar/Lift-simulation">Github Link</a>
     </footer>
+
+    <br >
+    <br >
+
+    <div class="output">
+        <button class="back">Back</button>
+    </div>
+
+    <br >
+    <br >
 
     <script src="./main.js" type="text/javascript"></script>
     
